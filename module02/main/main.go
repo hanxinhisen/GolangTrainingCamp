@@ -61,6 +61,9 @@ func GetUserByNameNormal(name string) (*User, error) {
 }
 
 func main() {
+
+	defer db.Close()
+
 	// 方式一
 	user, err := GetUserByName("hanxin")
 	if err != nil {
