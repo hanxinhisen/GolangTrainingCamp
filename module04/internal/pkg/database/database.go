@@ -1,7 +1,7 @@
 package database
 
 import (
-	"community-blogger/internal/pkg/models"
+	"blog-users/internal/pkg/models"
 	"github.com/google/wire"
 	"github.com/jinzhu/gorm"
 	// mysql driver

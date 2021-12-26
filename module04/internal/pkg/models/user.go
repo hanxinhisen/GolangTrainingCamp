@@ -1,7 +1,7 @@
 package models
 
 import (
-	"community-blogger/internal/pkg/utils/constutil"
+	"blog-users/internal/pkg/utils/constutil"
 )
 
 // User 定义用户表信息

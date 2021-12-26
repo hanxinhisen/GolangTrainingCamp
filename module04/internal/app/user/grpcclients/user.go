@@ -1,9 +1,9 @@
 package grpcclients
 
 import (
-	userproto "community-blogger/api/protos/user"
-	"community-blogger/internal/pkg/etcdservice"
-	"community-blogger/internal/pkg/transports/grpc"
+	userproto "blog-users/api/protos/user"
+	"blog-users/internal/pkg/etcdservice"
+	"blog-users/internal/pkg/transports/grpc"
 	"fmt"
 	"log"
 

@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"community-blogger/internal/pkg/transports/http"
-	"community-blogger/internal/pkg/transports/http/middlewares/auth"
+	"blog-users/internal/pkg/transports/http"
+	"blog-users/internal/pkg/transports/http/middlewares/auth"
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
 )

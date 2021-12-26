@@ -8,8 +8,8 @@ import (
 	"gopkg.in/go-playground/validator.v8"
 	"net/http"
 
-	"community-blogger/internal/pkg/baseerror"
-	"community-blogger/internal/pkg/exception"
+	"blog-users/internal/pkg/baseerror"
+	"blog-users/internal/pkg/exception"
 	"github.com/gin-gonic/gin"
 )
 

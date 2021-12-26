@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"community-blogger/internal/pkg/utils/netutil"
+	"blog-users/internal/pkg/utils/netutil"
 	"github.com/google/wire"
 
 	"github.com/pkg/errors"

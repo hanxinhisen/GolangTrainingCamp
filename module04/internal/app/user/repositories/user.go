@@ -1,10 +1,10 @@
 package repositories
 
 import (
-	"community-blogger/internal/pkg/database"
-	"community-blogger/internal/pkg/models"
-	"community-blogger/internal/pkg/requests"
-	"community-blogger/internal/pkg/responses"
+	"blog-users/internal/pkg/database"
+	"blog-users/internal/pkg/models"
+	"blog-users/internal/pkg/requests"
+	"blog-users/internal/pkg/responses"
 	"crypto/md5"
 	"fmt"
 	"github.com/jinzhu/gorm"

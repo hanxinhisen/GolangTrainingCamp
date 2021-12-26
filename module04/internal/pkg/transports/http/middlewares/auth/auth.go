@@ -5,10 +5,10 @@ token认证中间件
 */
 
 import (
-	"community-blogger/internal/pkg/baseerror"
-	"community-blogger/internal/pkg/baseresponse"
-	"community-blogger/internal/pkg/utils/httputil"
-	"community-blogger/internal/pkg/utils/middlewareutil"
+	"blog-users/internal/pkg/baseerror"
+	"blog-users/internal/pkg/baseresponse"
+	"blog-users/internal/pkg/utils/httputil"
+	"blog-users/internal/pkg/utils/middlewareutil"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"net/http"

@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"community-blogger/internal/pkg/etcdservice"
-	"community-blogger/internal/pkg/utils/netutil"
+	"blog-users/internal/pkg/etcdservice"
+	"blog-users/internal/pkg/utils/netutil"
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
@@ -30,9 +30,9 @@ type ServerOptions struct {
 }
 
 var (
-	CAFile   = "/src/community-blogger/internal/pkg/transports/tls/ca.pem"
-	CertFile = "/src/community-blogger/internal/pkg/transports/tls/server/server.pem"
-	KeyFile  = "/src/community-blogger/internal/pkg/transports/tls/server/server.key"
+	CAFile   = "/src/blog-users/internal/pkg/transports/tls/ca.pem"
+	CertFile = "/src/blog-users/internal/pkg/transports/tls/server/server.pem"
+	KeyFile  = "/src/blog-users/internal/pkg/transports/tls/server/server.key"
 )
 
 // NewServerOptions grpc new option

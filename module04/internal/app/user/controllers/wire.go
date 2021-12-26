@@ -1,13 +1,14 @@
+//go:build wireinject
 // +build wireinject
 
 package controllers
 
 import (
-	userproto "community-blogger/api/protos/user"
-	"community-blogger/internal/app/user/repositories"
-	"community-blogger/internal/app/user/services"
-	"community-blogger/internal/pkg/config"
-	"community-blogger/internal/pkg/log"
+	userproto "blog-users/api/protos/user"
+	"blog-users/internal/app/user/repositories"
+	"blog-users/internal/app/user/services"
+	"blog-users/internal/pkg/config"
+	"blog-users/internal/pkg/log"
 	"github.com/google/wire"
 )
 

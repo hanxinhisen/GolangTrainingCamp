@@ -1,13 +1,13 @@
 package app
 
 import (
-	"community-blogger/internal/pkg/transports/cron"
-	"community-blogger/internal/pkg/transports/grpc"
+	"blog-users/internal/pkg/transports/cron"
+	"blog-users/internal/pkg/transports/grpc"
 	"os"
 	"os/signal"
 	"syscall"
 
-	"community-blogger/internal/pkg/transports/http"
+	"blog-users/internal/pkg/transports/http"
 	"github.com/google/wire"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"

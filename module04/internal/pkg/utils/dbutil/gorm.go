@@ -1,7 +1,7 @@
 package dbutil
 
 import (
-	"community-blogger/internal/pkg/utils/constutil"
+	"blog-users/internal/pkg/utils/constutil"
 	"github.com/jinzhu/gorm"
 	"strconv"
 )

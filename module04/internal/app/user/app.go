@@ -1,8 +1,8 @@
 package user
 
 import (
-	"community-blogger/internal/pkg/app"
-	"community-blogger/internal/pkg/transports/http"
+	"blog-users/internal/pkg/app"
+	"blog-users/internal/pkg/transports/http"
 	"github.com/google/wire"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"

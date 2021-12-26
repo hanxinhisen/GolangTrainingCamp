@@ -1,7 +1,7 @@
 package requests
 
 import (
-	"community-blogger/internal/pkg/responses"
+	"blog-users/internal/pkg/responses"
 	"time"
 )
 

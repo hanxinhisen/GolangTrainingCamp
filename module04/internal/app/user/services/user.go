@@ -1,12 +1,12 @@
 package services
 
 import (
-	userproto "community-blogger/api/protos/user"
-	"community-blogger/internal/app/user/repositories"
-	"community-blogger/internal/pkg/baseerror"
-	"community-blogger/internal/pkg/requests"
-	"community-blogger/internal/pkg/responses"
-	"community-blogger/internal/pkg/utils/middlewareutil"
+	userproto "blog-users/api/protos/user"
+	"blog-users/internal/app/user/repositories"
+	"blog-users/internal/pkg/baseerror"
+	"blog-users/internal/pkg/requests"
+	"blog-users/internal/pkg/responses"
+	"blog-users/internal/pkg/utils/middlewareutil"
 	"context"
 	"crypto/md5"
 	"fmt"

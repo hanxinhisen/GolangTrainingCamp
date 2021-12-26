@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"community-blogger/internal/app/user/services"
-	"community-blogger/internal/pkg/baseresponse"
-	"community-blogger/internal/pkg/requests"
-	"community-blogger/internal/pkg/utils/httputil"
+	"blog-users/internal/app/user/services"
+	"blog-users/internal/pkg/baseresponse"
+	"blog-users/internal/pkg/requests"
+	"blog-users/internal/pkg/utils/httputil"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"net/http"

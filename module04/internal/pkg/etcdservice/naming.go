@@ -1,7 +1,7 @@
 package etcdservice
 
 import (
-	"community-blogger/internal/pkg/utils/constutil"
+	"blog-users/internal/pkg/utils/constutil"
 	"context"
 	"go.etcd.io/etcd/clientv3"
 	"log"

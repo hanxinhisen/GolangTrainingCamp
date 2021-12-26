@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"community-blogger/internal/pkg/redis"
+	"blog-users/internal/pkg/redis"
 	"fmt"
 	"net/http"
 	"time"

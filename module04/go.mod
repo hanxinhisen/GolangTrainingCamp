@@ -1,4 +1,4 @@
-module community-blogger
+module blog-users
 
 go 1.13
 

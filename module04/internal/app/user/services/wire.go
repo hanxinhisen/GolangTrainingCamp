@@ -1,13 +1,14 @@
+//go:build wireinject
 // +build wireinject
 
 package services
 
 import (
-	userproto "community-blogger/api/protos/user"
-	"community-blogger/internal/app/user/repositories"
-	"community-blogger/internal/pkg/config"
-	"community-blogger/internal/pkg/database"
-	"community-blogger/internal/pkg/log"
+	userproto "blog-users/api/protos/user"
+	"blog-users/internal/app/user/repositories"
+	"blog-users/internal/pkg/config"
+	"blog-users/internal/pkg/database"
+	"blog-users/internal/pkg/log"
 	"github.com/google/wire"
 )
 
